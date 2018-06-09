@@ -1,0 +1,5 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    repo: jonnrb/cloudflare_dns_proxy
+    secrets: [ docker_username, docker_password ]
